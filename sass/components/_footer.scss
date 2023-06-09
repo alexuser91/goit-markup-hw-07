@@ -1,0 +1,70 @@
+.footer {
+  background: #2f303a;
+  align-items: center;
+}
+
+.footer .adress {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+  padding: 16px;
+}
+
+.footer .social__list-icon-footer svg {
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+
+.social {
+  margin-left: 94px;
+  &__header {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__list-icon-footer {
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+    gap: 10px;
+  }
+  &__icon {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  &__icon:hover,
+  &__icon:focus {
+    border-radius: 50%;
+    background-color: #2196f3;
+  }
+}
+
+.footer-adress {
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+.link--footer {
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.email-input-footer {
+  margin-left: 93px;
+}

@@ -1,0 +1,73 @@
+.form__group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.form__icon {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 50%;
+  left: 12px;
+}
+
+.form__group + .form-checkbox {
+  margin-top: 10px;
+}
+
+.form__group > :nth-child(2):focus {
+  outline-color: #2196f3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form__group input:focus + .form__icon {
+  color: #2196f3;
+}
+
+/* Label Text */
+.form__group > *:nth-child(1) {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+.form__group > *:nth-child(2) {
+  padding: 12px 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.form__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.form-checkbox {
+  flex-direction: row;
+  gap: 8px;
+}
+.form-checkbox > *:nth-child(2) {
+  padding: 0;
+  border: none;
+}
+.form__i-agree {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.form__terms {
+  color: #2196f3;
+  text-decoration: underline;
+}
+.form__textarea {
+  width: 448px;
+  height: 120px;
+  resize: none;
+}

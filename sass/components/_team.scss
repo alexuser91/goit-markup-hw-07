@@ -1,0 +1,54 @@
+.our-team {
+  background: #f5f4fa;
+  padding-top: 94px;
+}
+
+.team .icons-list svg {
+  width: 20px;
+  height: 20px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 94px;
+  gap: 30px;
+
+  &__card {
+    position: relative;
+    max-width: 320px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  &__images {
+    max-width: 100%;
+    display: block;
+  }
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+    margin-top: 10px;
+  }
+}

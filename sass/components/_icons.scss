@@ -1,0 +1,31 @@
+.icons-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.icons-list .icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+}
+
+.icons-list .icon:hover {
+  border-radius: 50%;
+  background-color: #2196f3;
+  color: white;
+}
+.main-team .icons-list svg {
+  width: 20px;
+  height: 20px;
+}
+.icon-send {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin-left: 15px;
+}

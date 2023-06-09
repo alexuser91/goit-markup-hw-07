@@ -1,0 +1,36 @@
+.clients {
+  display: flex;
+  justify-content: space-between;
+
+  &__customers {
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    display: flex;
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__icon {
+    width: 92px;
+    height: 55px;
+  }
+
+  &__color {
+    color: #afb1b8;
+  }
+  &__color:hover,
+  &__color:focus {
+    color: #2196f3;
+  }
+
+  &__customers:hover {
+    border: 1px solid #2196f3;
+    border-radius: 4px;
+  }
+}
+
+.regular-customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
